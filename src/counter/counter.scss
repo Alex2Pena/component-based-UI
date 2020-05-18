@@ -1,0 +1,44 @@
+#counterWrap {
+  margin: 7.5em 0;
+
+  div {
+    display: inline-block;
+    margin: 0 0.5em;
+  }
+
+}
+
+#buttonWrap > button {
+  font-size: 1em;
+  width: 15%;
+  margin: 4.25em 1em;
+  padding: 0.65em 1.5em;
+  border-radius: 5px;
+}
+
+#currentTally {
+  outline: none;
+  font-size: 1em;
+  width: 15%;
+  margin: 3.25em auto;
+  padding: 0.65em 1.5em;
+  border-radius: 5px;
+}
+
+.black {
+  background-color: white;
+  color: black;
+  transition-duration: 0.2s;
+}
+
+.green {
+  background-color: rgb(46, 250, 97);
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.red {
+  background-color: #F45336;
+  color: white;
+  transition-duration: 0.2s;
+}
