@@ -1,0 +1,11 @@
+$font-family: monserat, sans-serif;
+$background-color: rgb(209, 138, 81);
+$color: rgb(65, 182, 91);
+
+#root {
+  background-color: $background-color;
+  font-family: $font-family;
+  color: $color;
+  text-align: center;
+  height: 50em;
+}
