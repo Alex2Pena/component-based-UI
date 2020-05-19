@@ -25,19 +25,19 @@ Clone this repository to your local machine.
 - Enjoy!
 
 ---
-### Visuals ()
+### Visuals
 
 ---
-### Data Flow ()
+### Data Flow
 
 ---
-### Data Model ()
+### Data Model
 
 ---
-### Database Schema ()
+### Database Schema
 
 ---
-### Change Log ()
+### Change Log
 
 ---
-### Sources ()
+### Sources
