@@ -1,12 +1,9 @@
 # Component-Based-UI
 ##### *Author: Alex Pena*
+
 ---
 ## React Web Application
 Currently has 2 buttons, one to increment and one to decrement. There is also a button for setting a new starting value.
-
----
-### Identity Claims
-*none*
 
 ---
 ### Tools Used
@@ -29,7 +26,7 @@ Clone this repository to your local machine.
 
 ---
 ### Data Flow
-![Data flow](https://drive.google.com/file/d/1yncOj3gzmAQcDvfiNoXq4wHK7R732Br2/view?usp=sharing)
+![Data flow](assets/Component UI.jpeg)
 
 ---
 ### Database Schema

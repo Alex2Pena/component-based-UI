@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./header/header.jsx";
-import Footer from "./footer/footer.jsx";
-import Counter from "./counter/counter.jsx";
+import Header from "./header/header.js";
+import Footer from "./footer/footer.js";
+import Counter from "./counter/counter.js";
 
 import "./app.scss";
 
@@ -14,7 +14,7 @@ class App extends React.Component {
         <Footer />
       </React.Fragment>
     );
-  };
-};
+  }
+}
 
 export default App;
