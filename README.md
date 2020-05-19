@@ -29,9 +29,7 @@ Clone this repository to your local machine.
 
 ---
 ### Data Flow
-
----
-### Data Model
+![Data flow](https://drive.google.com/open?id=1yncOj3gzmAQcDvfiNoXq4wHK7R732Br2)
 
 ---
 ### Database Schema
