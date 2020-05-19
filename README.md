@@ -26,7 +26,7 @@ Clone this repository to your local machine.
 
 ---
 ### Data Flow
-[![Data flow](/assets/Component UI.jpeg "Data Flow")]
+[![Data flow](https://drive.google.com/file/d/1yncOj3gzmAQcDvfiNoXq4wHK7R732Br2/view?usp=sharing "Data Flow")]
 
 ---
 ### Database Schema
