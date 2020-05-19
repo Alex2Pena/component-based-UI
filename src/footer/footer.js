@@ -3,8 +3,11 @@ import './footer.scss';
 
 class Footer extends React.Component {
   render() {
-    return <footer>&copy; 2020 Code Fellows</footer>;
-  }
-}
+    return (
+      <React.Fragment>  
+        <footer> 2020 Code Fellows </footer>
+      </React.Fragment>
+    )};
+};
 
 export default Footer;
