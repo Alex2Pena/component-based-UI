@@ -60,7 +60,7 @@ Clone this repository to your local machine.
 
 ---
 ### Data Flow
-![Data flow](assets/Component UI.jpeg)
+![Data flow](assets/ComponentUI.jpeg)
 
 ---
 ### Database Schema
