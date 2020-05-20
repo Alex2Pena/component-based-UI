@@ -1,13 +1,11 @@
 import React from 'react';
-import './footer.scss';
 
-class Footer extends React.Component {
-  render() {
-    return (
-      <React.Fragment>  
-        <footer> 2020 Code Fellows </footer>
-      </React.Fragment>
-    )};
-};
+function Footer(){
+  return(
+    <div>
+       <h1> Click buttons above </h1>
+    </div>
+  )
+}
 
 export default Footer;
