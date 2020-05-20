@@ -1,14 +1,12 @@
 import React from 'react';
-import Enzyme, { shallow } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import { shallow, mount } from 'enzyme';
+import render from 'react-test-render';
 import Counter from '../counter/counter.js';
-
-Enzyme.configure({ adapter: new Adapter() });
 
 describe('Counter renders', () => {
   const wrapper = shallow(<Counter />);
 
-  test('Counter renders', () => {
+  it('Counter renders', () => {
     expect(wrapper.find('#currentTally').exists()).toEqual(true);
     expect(wrapper.find('#counterWrap').exists()).toEqual(true);
     expect(wrapper.find('#buttonWrap').exists()).toEqual(true);

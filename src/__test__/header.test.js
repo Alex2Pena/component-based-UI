@@ -1,14 +1,10 @@
 import React from 'react';
-import Enzyme, { shallow } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-
-// eslint-disable-next-line import/no-unresolved
+import { shallow, mount } from 'enzyme';
+import renderer from 'react-test-renderer';
 import Header from '../header/header.js';
 
-Enzyme.configure({ adapter: new Adapter() });
-
 describe('Header renders', () => {
-  test('Header renders', () => {
+  it('Header renders', () => {
     const wrapper = shallow(<Header />);
     expect(wrapper.find('header').exists()).toEqual(true);
     expect(wrapper.find('header').text()).toEqual('Counter App');
