@@ -5,43 +5,42 @@ class Counter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      'tally': 0,
-      'up': 0,
-      'down': 0,
-      'colorChange': 'black',
+      tally: 0,
+      up: 0,
+      down: 0,
+      colorChange: 'black',
     };
   }
 
   handleIncrement = (event) => {
     this.setState({
-        'tally': this.event.tally + 1,
-        'up': this.event.up + 1,
-        'down': this.event.down,
-        'colorChange': 'green',
+        tally: this.state.tally + 1,
+        up: this.state.up + 1,
+        down: this.state.down,
+        colorChange: 'green',
     });
   };
 
   handleDecriment = (event) => {
     this.setState({
-        'tally': event.tally - 1,
-        'up': event.up,
-        'down': event.down + 1,
-        'colorChange': 'red',
+        tally: this.state.tally - 1,
+        up: this.state.up,
+        down: this.state.down + 1,
+        colorChange: 'red',
     });
   };
 
   handleSetButton = (event) => {
     this.setState({
-      'tally': 0,
-      'up': 0,
-      'down': 0,
-      'colorChange': 'black',
+      tally: 0,
+      up: 0,
+      down: 0,
+      colorChange: 'black',
     });
   };
 
   render() {
     return (
-      <React.Fragment>
       <div>
         <button id="currentTally" className={this.state.colorChange} onClick={this.handleSetButton}></button>
         <div id="counterWrap">
@@ -53,7 +52,6 @@ class Counter extends React.Component {
           <button id="downButton" onClick={this.handleDecriment}>Down</button>
         </div>
       </div>
-      </React.Fragment>
     )
   };
 };

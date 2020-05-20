@@ -2,6 +2,11 @@ import React from 'react';
 import App from './app.js';
 import ReactDOM from 'react-dom';
 
-const root = document.getElementById('root');
+class Main extends React.Component{
+    render(){
+        return <App />
+        }
+};
 
-ReactDOM.render(<App />, root);
+const root = document.getElementById('root');
+ReactDOM.render(<Main />, root);
