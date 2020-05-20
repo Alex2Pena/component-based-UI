@@ -7,6 +7,6 @@ describe('Header renders', () => {
   it('Header renders', () => {
     const wrapper = shallow(<Header />);
     expect(wrapper.find('header').exists()).toEqual(true);
-    expect(wrapper.find('header').text()).toEqual('Counter App');
+    expect(wrapper.find('header').text()).toEqual(' Counter App ');
   });
 });
